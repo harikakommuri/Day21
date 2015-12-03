@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dropdown</title>
+<link rel="stylesheet" href="hyphen.css">
+<link rel="stylesheet" href="dropdown.css">
+<script type="text/javascript" src="dropdown.js"></script>
+<script type="text/javascript" src="jquery-1.11.3.js"></script>
+</head>
+<body>
+  <div id="createquote">
+    <div id="selection">
+      <select id="selectbutton">
+        <option value="chooseoption" selected>select</option>
+        <option value="quoteDetails">Quote Details</option>
+        <option value="additionalInformation">Additional Information</option>
+      </select>
+    </div>
+    <br>
+    <div class="enter QuoteDetails">
+      <p>Quote Details</p>
+      <hr>
+        <div class="grid">
+          <div class="grid__item grid__item--6">
+            <lable>Quote Name</lable><br>
+            <input type="text" placeholder="Quote name">
+          </div>
+          <div class="grid__item grid__item--6">
+            <lable>Customer</lable><br>
+            <input type="text" placeholder="Customer name">
+          </div>
+        </div>
+        <div class="grid">
+          <div class="grid__item grid__item--6">
+            <lable>Deliver Goods To:</lable><br>
+            <textarea rows="5" disabled></textarea>
+          </div>
+          <div class="grid__item grid__item--6">
+            <lable>Billing To</lable><br>
+            <textarea rows="5" disabled></textarea>
+          </div>
+        </div>
+          <div class="grid">
+            <div class="grid__item grid__item--6">
+                Address verified
+            </div>
+            <div class="grid__item grid__item--6">
+              <lable>Order Type</lable><br>
+              <select></select>
+            </div>
+          </div>
+      </div>
+      <div class="enter additionalinformation">
+        <p>Additional Information</p>
+        <hr>
+        <div class="grid">
+          <div class="grid__item grid__item--6">
+            <lable>Payment Terms</lable><br>
+            <select></select>
+          </div>
+          <div class="grid__item grid__item--6">
+            <lable>PO Number</lable>
+            <input type="text" placeholder="PO Number">
+          </div>
+        </div>
+          <div class="grid">
+            <div class="grid__item grid__item--6">
+              <lable>Expected Delivery Date</lable><br>
+              <input type="text">
+            </div>
+            <div class="grid__item grid__item--6">
+              <lable>Requested Date</lable><br>
+              <input type="text">
+            </div>
+          </div>
+      </div>
+      <div class="enter needTo">
+        <p>Need To</p>
+        <hr>
+        <div class="grid">
+          <div class="grid__item grid__item--4">
+            <lable>Customer</lable>
+            <input type="text" placeholder="Customer">
+          </div>
+          <div class="grid__item grid__item--4">
+              <lable>Back Office</lable>
+              <input type="text" placeholder="Back Office">
+          </div>
+          <div class="grid__item grid__item--4">
+            <lable>Carrier</lable>
+            <input type="text" placeholder="Carrier">
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
